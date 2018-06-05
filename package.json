@@ -1,0 +1,8 @@
+{
+  "name": "my-alerts",
+  "version": "0.1.0",
+  "description": "Mute Alerts",
+  "kibana": {
+    "version": "6.2.2"
+  }
+}

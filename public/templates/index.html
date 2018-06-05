@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12-sm">
+      <h1>Triggered Alerts</h1>
+      <ul class="indexList">
+        <li ng-repeat="watch in ctrl.alerts.hits.hits">
+          <a href="#/index/{{watch._id}}">{{ watch._id }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
